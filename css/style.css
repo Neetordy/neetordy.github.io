@@ -3,8 +3,8 @@
   padding: 0;
 }
 body {
-  background: #fff;
-  color: #444;
+  background: #eee;
+  color: #333;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 14px;
   text-shadow: 0 0 1px transparent;
@@ -269,7 +269,7 @@ article.link .icon:before {
 }
 article.link .title a:after {
   content: '\f08e';
-  color: #999;
+  color: #888;
   font: 1.1em FontAwesome;
   padding-left: 10px;
   vertical-align: super;
@@ -371,7 +371,7 @@ article header .icon:before {
   text-align: center;
 }
 article header time {
-  color: #999;
+  color: #888;
   font: 0.9em "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-bottom: 5px;
   display: block;
@@ -381,7 +381,7 @@ article header .title {
   font-weight: normal;
 }
 article header .title a {
-  color: #444;
+  color: #333;
 }
 article header .title a:hover {
   color: #258fb8;
@@ -433,12 +433,12 @@ article .entry code {
   padding: 0 5px;
   margin: 0 2px;
   font-size: 0.9em;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   border-radius: 3px;
 }
 article .entry pre {
   background: #eee;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   margin-top: 15px;
   overflow: auto;
   padding: 7px 15px;
@@ -473,7 +473,7 @@ article .entry dl dl {
 article .entry h1,
 article .entry h2 {
   font-weight: normal;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
   margin-top: 20px;
 }
@@ -496,7 +496,7 @@ article .entry iframe {
 article .entry .caption {
   display: block;
   margin-top: 5px;
-  color: #999;
+  color: #888;
   position: relative;
   font-size: 0.9em;
   padding-left: 25px;
@@ -537,15 +537,15 @@ article .entry .pullquote {
 article footer {
   padding-bottom: 1em;
   padding-top: 1em;
-  border-top: 1px solid #ddd;
-  color: #999;
+  border-top: 1px solid #ccc;
+  color: #888;
   font-size: 0.9em;
   line-height: 16px;
   position: relative;
   min-height: 16px;
 }
 article footer a {
-  color: #999;
+  color: #888;
   line-height: 1em;
 }
 article footer a:hover {
@@ -620,7 +620,7 @@ article footer .counter:before {
   display: block;
   padding: 5px 10px;
   background: #fff;
-  color: #999;
+  color: #888;
   font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-shadow: 0 0 1px #fff;
   margin-bottom: 50px;
@@ -644,7 +644,7 @@ article footer .counter:before {
   font-family: FontAwesome;
 }
 .archive-title {
-  color: #999;
+  color: #888;
   font-weight: normal;
   margin-bottom: 30px;
   text-shadow: 0 0 1px #fff;
@@ -655,9 +655,9 @@ article footer .counter:before {
   padding-right: 15px;
 }
 .archive {
-  -webkit-box-shadow: 1px 2px 10px #ddd;
-  box-shadow: 1px 2px 10px #ddd;
-  border-bottom: 1px solid #ddd;
+  -webkit-box-shadow: 1px 2px 10px #ccc;
+  box-shadow: 1px 2px 10px #ccc;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 2em;
   padding-bottom: 1em;
 }
@@ -669,14 +669,14 @@ article footer .counter:before {
   margin-bottom: 0;
 }
 .archive-tags {
-  color: #999;
+  color: #888;
   font-size: 0.9em;
   line-height: 16px;
   position: relative;
   min-height: 16px;
 }
 .archive-tags a {
-  color: #999;
+  color: #888;
 }
 .archive-tags a:hover {
   color: #258fb8;
@@ -722,14 +722,14 @@ article footer .counter:before {
   background: #fff;
   -webkit-box-shadow: -1px 1px 5px #ccc;
   box-shadow: -1px 1px 5px #ccc;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   margin-bottom: 30px;
   word-wrap: break-word;
 }
 #sidebar .widget .title {
   padding: 15px 20px;
   font-size: 1em;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
   font-weight: normal;
 }
 #sidebar .widget .entry {
@@ -743,7 +743,7 @@ article footer .counter:before {
 #sidebar .widget .category-list .category-list-count {
   margin-left: 8px;
   font-size: 0.8em;
-  color: #999;
+  color: #888;
 }
 #sidebar .widget .category-list .category-list-count:before {
   content: '(';
@@ -758,7 +758,7 @@ article footer .counter:before {
 #sidebar .widget .archive-list .archive-list-count {
   margin-left: 8px;
   font-size: 0.8em;
-  color: #999;
+  color: #888;
 }
 #sidebar .widget .archive-list .archive-list-count:before {
   content: '(';
@@ -802,21 +802,21 @@ article footer .counter:before {
   font-style: italic;
   font-size: 1em;
   padding: 10px 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   -webkit-box-shadow: -1px 1px 5px #ccc;
   box-shadow: -1px 1px 5px #ccc;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #999;
+  color: #888;
 }
 #sidebar .search input:focus {
-  color: #444;
+  color: #333;
 }
 #sidebar .tag small {
   margin-left: 15px;
-  color: #999;
+  color: #888;
 }
 #sidebar .tag small:before {
   content: '(';
@@ -825,7 +825,7 @@ article footer .counter:before {
   content: ')';
 }
 #sidebar .twitter li {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
   padding: 15px 20px;
   font-size: 0.9em;
 }
@@ -835,7 +835,7 @@ article footer .counter:before {
 #sidebar .twitter small {
   display: block;
   margin-top: 10px;
-  color: #999;
+  color: #888;
   line-height: 1;
 }
 #sidebar .tagcloud .entry {
@@ -846,7 +846,7 @@ article footer .counter:before {
   display: inline-block;
 }
 #footer {
-  color: #999;
+  color: #888;
   margin: 2em auto;
   padding: 0 2%;
   text-align: center;
@@ -887,7 +887,7 @@ article footer .counter:before {
 }
 .entry .gist {
   background: #eee;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   margin-top: 15px;
   padding: 7px 15px;
   border-radius: 2px;
@@ -912,7 +912,7 @@ article footer .counter:before {
 }
 .entry .gist .gist-file .gist-meta {
   background: none;
-  color: #999;
+  color: #888;
   margin-top: 5px;
   padding: 0;
   text-shadow: 0 0 1px #fff;
@@ -926,7 +926,7 @@ article footer .counter:before {
 }
 figure.highlight {
   background: #eee;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   padding: 7px 15px;
   border-radius: 2px;
   text-shadow: 0 0 1px #fff;
@@ -936,7 +936,7 @@ figure.highlight {
   font-size: 0.9em;
 }
 figure.highlight figcaption {
-  color: #999;
+  color: #888;
   margin-bottom: 5px;
   text-shadow: 0 0 1px #fff;
 }
@@ -954,9 +954,9 @@ figure.highlight table {
   border-spacing: 0;
 }
 figure.highlight .gutter {
-  color: #999;
+  color: #888;
   padding-right: 15px;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #ccc;
   text-align: right;
 }
 figure.highlight .code {
@@ -1072,7 +1072,7 @@ pre .deletion {
 .resume h2,
 .resume h3 {
   font-weight: bold;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
   margin-top: 20px;
 }
@@ -1300,7 +1300,7 @@ pre .deletion {
 }
 .gallery h1,
 .gallery h2 {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
   margin-top: 20px;
   margin-bottom: 5px;
   clear: both;
