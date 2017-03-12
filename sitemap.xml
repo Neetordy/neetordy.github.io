@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://neetordy.com/2017/03/10/Fxxking-idiot-myself/</loc>
+    <loc>http://neetordy.com/categories/index.html</loc>
     
-    <lastmod>2017-03-10T14:19:55.693Z</lastmod>
+    <lastmod>2017-03-12T11:38:51.705Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://neetordy.com/2017/03/10/hello-world/</loc>
+    <loc>http://neetordy.com/about/index.html</loc>
     
-    <lastmod>2017-03-10T08:38:52.625Z</lastmod>
+    <lastmod>2017-03-12T09:51:07.398Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://neetordy.com/2017/03/10/Fxxking-idiot-myself/</loc>
+    
+    <lastmod>2017-03-10T14:19:55.693Z</lastmod>
     
   </url>
   
