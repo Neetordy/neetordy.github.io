@@ -149,7 +149,7 @@ a:hover {
   -moz-transform: rotate(360deg) /* Firefox */;
 }
 #header .header-div a {
-  font-family: futura;
+  font-family: helvetica;
   font-size: 1.2em;
 }
 #header .header-content {
