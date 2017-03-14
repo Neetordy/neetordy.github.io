@@ -1240,14 +1240,14 @@ pre .deletion {
   float: right;
   font-size: 0.9em;
   color: #258fb8;
-  margin: 8px;
+  margin: 3px;
   position: relative;
   left: 50px;
 }
 #toc .toc {
-  background-color: #ebb471;
+  background-color: #dac9a6;
   list-style: none;
-  padding: 3px;
+  padding: 8px;
 }
 #toc .toc-item,
 #toc .toc-link {
