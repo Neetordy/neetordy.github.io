@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://neetordy.com/"/>
-  <updated>2017-03-14T06:34:15.114Z</updated>
+  <updated>2017-03-14T06:45:29.845Z</updated>
   <id>http://neetordy.com/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="http://neetordy.com/2017/03/14/tmux-Terminator-Workflow/"/>
     <id>http://neetordy.com/2017/03/14/tmux-Terminator-Workflow/</id>
     <published>2017-03-14T03:00:10.000Z</published>
-    <updated>2017-03-14T06:34:15.114Z</updated>
+    <updated>2017-03-14T06:45:29.845Z</updated>
     
     <content type="html"><![CDATA[<p>tmux and Terminator are two important shell tools in Linux, companied with zsh, the shell workflow will be much efficient and friendly.</p>
-<h3 id="Sreenshot"><a href="#Sreenshot" class="headerlink" title="Sreenshot"></a>Sreenshot</h3><img src="/2017/03/14/tmux-Terminator-Workflow/Screenshot.png" alt="Screenshot.png" title="">
+<h3 id="Sreenshot"><a href="#Sreenshot" class="headerlink" title="Sreenshot"></a>Sreenshot</h3><p><img src="/images/Screenshot.png" alt=""></p>
 <a id="more"></a>
 <h1 id="1-tmux-configuration"><a href="#1-tmux-configuration" class="headerlink" title="1. tmux configuration"></a>1. tmux configuration</h1><p>Download configuration from Github:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">cd</div><div class="line">git clone https://github.com/gpakosz/.tmux.git</div><div class="line">ln -s -f .tmux/.tmux.conf</div><div class="line">cp .tmux/.tmux.conf.local</div></pre></td></tr></table></figure></p>
 <p><br></p>
@@ -37,7 +37,7 @@
     <summary type="html">
     
       &lt;p&gt;tmux and Terminator are two important shell tools in Linux, companied with zsh, the shell workflow will be much efficient and friendly.&lt;/p&gt;
-&lt;h3 id=&quot;Sreenshot&quot;&gt;&lt;a href=&quot;#Sreenshot&quot; class=&quot;headerlink&quot; title=&quot;Sreenshot&quot;&gt;&lt;/a&gt;Sreenshot&lt;/h3&gt;&lt;img src=&quot;/2017/03/14/tmux-Terminator-Workflow/Screenshot.png&quot; alt=&quot;Screenshot.png&quot; title=&quot;&quot;&gt;
+&lt;h3 id=&quot;Sreenshot&quot;&gt;&lt;a href=&quot;#Sreenshot&quot; class=&quot;headerlink&quot; title=&quot;Sreenshot&quot;&gt;&lt;/a&gt;Sreenshot&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/Screenshot.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
