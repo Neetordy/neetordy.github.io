@@ -106,7 +106,7 @@
 <h1 id="2-tmux-auto-layout"><a href="#2-tmux-auto-layout" class="headerlink" title="2. tmux auto layout"></a>2. tmux auto layout</h1><p>creat layout.sh in ~/.tmux and paste following codes:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">!/bin/bash</div><div class="line"><span class="comment">#</span></div><div class="line"><span class="comment"># tumx layout configuration</span></div><div class="line"></div><div class="line"><span class="comment"># zsh compatibility</span></div><div class="line"><span class="built_in">export</span> DISABLE_AUTO_TITLE=<span class="string">"true"</span></div><div class="line"></div><div class="line">session= <span class="variable">$USER</span></div><div class="line"></div><div class="line">tmux has-session -t <span class="variable">$session</span></div><div class="line"><span class="keyword">if</span> [ $? = 0  ];<span class="keyword">then</span></div><div class="line">    tmux attach-session -t <span class="variable">$session</span></div><div class="line">    <span class="built_in">exit</span></div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line">tmux new-session <span class="_">-d</span> <span class="_">-s</span> <span class="variable">$session</span> -n home</div><div class="line">tmux send-keys -t <span class="variable">$session</span>:1.0 <span class="string">'cd ~'</span> C-m</div><div class="line">tmux new-window -t <span class="variable">$session</span>:2 -n edit vi</div><div class="line">tmux new-window -t <span class="variable">$session</span>:3 -n zsh</div><div class="line">tmux new-window -t <span class="variable">$session</span>:4 -n SSH</div><div class="line"></div><div class="line">tmux split-window -t <span class="variable">$session</span>:3 -h</div><div class="line">tmux select-window -t <span class="variable">$session</span>:1</div><div class="line">tmux attach-session -t <span class="variable">$session</span></div></pre></td></tr></table></figure></p>
 <p><br></p>
 <h1 id="3-Terminator-configuration"><a href="#3-Terminator-configuration" class="headerlink" title="3. Terminator configuration"></a>3. Terminator configuration</h1><h3 id="Auto-start-tmux-and-load-layout-in-Terminator"><a href="#Auto-start-tmux-and-load-layout-in-Terminator" class="headerlink" title="Auto start tmux and load layout in Terminator"></a>Auto start tmux and load layout in Terminator</h3><p>Preference - Profiles - Command - Custom command:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">([[ <span class="_">-f</span> <span class="string">"<span class="variable">$TMUX</span>"</span> ]] &amp;&amp; tmux -2 -c <span class="string">"zsh ~/.tmux/1.sh "</span>-S <span class="variable">$TMUX</span>) || (TMUX=<span class="string">""</span> tmux -2 -c <span class="string">"zsh ~/.tmux/1.sh"</span>)</div></pre></td></tr></table></figure></p>
-<h3 id="Change-theme"><a href="#Change-theme" class="headerlink" title="Change theme"></a>Change theme</h3><p>open ~/.config/terminator/config<br>find line &quot;palette =&quot;, paste<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">palette = &quot;#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec&quot;</div></pre></td></tr></table></figure></p>
+<h3 id="Change-theme"><a href="#Change-theme" class="headerlink" title="Change theme"></a>Change theme</h3><p>open ~/.config/terminator/config<br>find line &quot;palette =&quot;, replace with this line:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">palette = &quot;#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec&quot;</div></pre></td></tr></table></figure></p>
 <p>finally, select a color or image you like in Preference - Profiles - Backgroud<br>&quot;Transparent backgound&quot; option is highly recommanded</p>
 
       
@@ -120,14 +120,12 @@
   </div>
 
         <div class = "counter">
-  <span id="busuanzi_container_page_pv" style="display:none">
-      总访问&nbsp<span id="busuanzi_value_page_pv"></span>&nbsp次
-  </span>
+    <span id="busuanzi_container_page_pv" style="display:none">
+        &nbsp<span id="busuanzi_value_page_pv"></span>&nbspviews
+    </span>
 </div>
-        
-  <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a><a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a></div>
-  <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 
+        
       
       <div class="clearfix"></div>
     </footer>
@@ -136,8 +134,6 @@
 
   
 <section id = "relate">
-	
-                <div id="null"></div>
 	
 </section>
 
@@ -183,6 +179,12 @@
    
 
 
+  <div class="widget tag">
+  <h3 class="title">Calendar</h3>
+  <div id="calendar"></div>
+</div>
+
+
   
   <div class="widget tag">
     <h3 class="title">Related links</h3>
@@ -212,7 +214,7 @@
   
   <div class="widget tag">
     <h3 class="title">Archives</h3>
-	<ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/">公元 2017 年</a><span class="archive-list-count">2</span></li></ul>
+	<ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/">2017 - 03</a><span class="archive-list-count">2</span></li></ul>
   </div>
 
 
@@ -232,16 +234,27 @@
   </div>
   
   <div class="visit">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+    <span id="busuanzi_value_site_pv"></span> views in total
   </div>
   
   <div class="clearfix"></div>
-</div></footer>
+</div>
+</footer>
   <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>
 
 <!-- calendar widget -->
+
+    <script src="/js/calendar.js"></script>
+    <script src="/js/languages.js"></script>
+    <script type="text/javascript">
+     $(function() {
+         
+             $('#calendar').aCalendar('en-US',{single:undefined, root:'calendar'});
+         
+     });
+    </script>
 
 
 <!-- 『不蒜子』计数服务 -->
