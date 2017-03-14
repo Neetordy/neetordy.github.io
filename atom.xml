@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://neetordy.com/"/>
-  <updated>2017-03-10T14:19:55.693Z</updated>
+  <updated>2017-03-14T03:00:10.837Z</updated>
   <id>http://neetordy.com/</id>
   
   <author>
@@ -14,6 +14,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tmux + Terminator Workflow</title>
+    <link href="http://neetordy.com/2017/03/14/tmux-Terminator-Workflow/"/>
+    <id>http://neetordy.com/2017/03/14/tmux-Terminator-Workflow/</id>
+    <published>2017-03-14T03:00:10.000Z</published>
+    <updated>2017-03-14T03:00:10.837Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Fxxking idiot myself</title>
