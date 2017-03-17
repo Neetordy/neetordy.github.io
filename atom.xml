@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://neetordy.com/"/>
-  <updated>2017-03-15T09:17:03.324Z</updated>
+  <updated>2017-03-17T09:25:56.737Z</updated>
   <id>http://neetordy.com/</id>
   
   <author>
@@ -14,6 +14,82 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Melody X</title>
+    <link href="http://neetordy.com/2017/03/17/Melody-X/"/>
+    <id>http://neetordy.com/2017/03/17/Melody-X/</id>
+    <published>2017-03-17T09:25:56.737Z</published>
+    <updated>2017-03-17T09:25:56.737Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Hard-rock-make-us-rational-and-focused"><a href="#Hard-rock-make-us-rational-and-focused" class="headerlink" title="Hard-rock, make us rational and focused."></a>Hard-rock, make us rational and focused.</h3><p><img src="/images/cover.jpg" alt=""></p>
+<a id="more"></a>
+<p><br></p>
+<h3 id="euphoria-Fairytale-Landscape"><a href="#euphoria-Fairytale-Landscape" class="headerlink" title="euphoria - Fairytale Landscape"></a>euphoria - Fairytale Landscape</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/vGEax2IIivk" frameborder="0" allowfullscreen></iframe><br><br><br><br>### MONO - Ashes In The Snow<br><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A1j0hMeC5fcnpwcsr3mH0pL" width="300" height="380" frameborder="0" allowtransparency="true"></iframe><br><br><br><br>### Athletics - IV<br><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A7IrUVr1hyrID38awZ5z0vR" width="300" height="380" frameborder="0" allowtransparency="true"></iframe><br><br><br><br>### French Teen Idol - (un)told Prejudices<br><iframe width="560" height="315" src="https://www.youtube.com/embed/0OIswJFNBZg" frameborder="0" allowfullscreen></iframe><br><br><br><br>### Jizue - Life (feat. YeYe)<br><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A75TJjavKeGNBC5NLROvRYI" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Hard-rock-make-us-rational-and-focused&quot;&gt;&lt;a href=&quot;#Hard-rock-make-us-rational-and-focused&quot; class=&quot;headerlink&quot; title=&quot;Hard-rock, make us rational and focused.&quot;&gt;&lt;/a&gt;Hard-rock, make us rational and focused.&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/cover.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Reading Notes: Artificial Intelligence</title>
+    <link href="http://neetordy.com/2017/03/17/Reading-Notes-Artificial-Intelligence/"/>
+    <id>http://neetordy.com/2017/03/17/Reading-Notes-Artificial-Intelligence/</id>
+    <published>2017-03-17T01:41:49.000Z</published>
+    <updated>2017-03-17T09:28:01.121Z</updated>
+    
+    <content type="html"><![CDATA[<h6 id="It-39-s-my-summary-of-the-famous-book-Artificial-Intelligence-A-Modern-Approach-Here-I-will-use-keywords-outline-and-sometime-mind-maps-to-illustrate-the-structure-If-you-have-trouble-with-something-welcome-to-comment-below-the-article"><a href="#It-39-s-my-summary-of-the-famous-book-Artificial-Intelligence-A-Modern-Approach-Here-I-will-use-keywords-outline-and-sometime-mind-maps-to-illustrate-the-structure-If-you-have-trouble-with-something-welcome-to-comment-below-the-article" class="headerlink" title="It&#39;s my summary of the famous book: Artificial Intelligence: A Modern Approach. Here I will use keywords outline and sometime mind maps to illustrate the structure. If you have trouble with something, welcome to comment below the article."></a>It&#39;s my summary of the famous book: <em>Artificial Intelligence: A Modern Approach</em>. Here I will use keywords outline and sometime mind maps to illustrate the structure. If you have trouble with something, welcome to comment below the article.</h6><a id="more"></a>
+<h1 id="Chapter-1"><a href="#Chapter-1" class="headerlink" title="Chapter 1"></a>Chapter 1</h1><h2 id="Four-stages-of-our-acknowledge-of-intelligence"><a href="#Four-stages-of-our-acknowledge-of-intelligence" class="headerlink" title="Four stages of our acknowledge of intelligence:"></a>Four stages of our acknowledge of intelligence:</h2><ul>
+<li><p>Acting humanly: The Turing Test approach</p>
+<ul>
+<li>natural language processing</li>
+<li>knowledge representation</li>
+<li>automated reasoning</li>
+<li>machine learning</li>
+<li>computer vision</li>
+<li>robotics to manipulate</li>
+</ul>
+<p>Note: the first step of AI is to make them act as human</p>
+</li>
+<li><p>Thinking humanly: The cognitive modeling approach<br>There are two approaches: an algorithm performs well on a task and that it is  therefore  a good model of human performance, or vice versa.</p>
+</li>
+<li><p>Thinking rationally</p>
+</li>
+<li><p>Acting rationally</p>
+</li>
+</ul>
+<h2 id="Basis-of-artificial-intelligence"><a href="#Basis-of-artificial-intelligence" class="headerlink" title="Basis of artificial intelligence:"></a>Basis of artificial intelligence:</h2><ul>
+<li>Philosophy</li>
+<li>Mathematics</li>
+<li>Economics</li>
+<li>Neuroscience</li>
+<li>Psychology</li>
+<li>Computer engineering</li>
+<li>Control theory &amp; Cybernetics</li>
+<li>Linguistics</li>
+</ul>
+<h1 id="Chapter-2"><a href="#Chapter-2" class="headerlink" title="Chapter 2"></a>Chapter 2</h1><ul>
+<li><h3 id="The-interaction-between-intelligent-agents-and-environments"><a href="#The-interaction-between-intelligent-agents-and-environments" class="headerlink" title="The interaction between intelligent agents and environments"></a>The interaction between intelligent agents and environments</h3><p>The interaction between them can be seen as a function mapping the percept sequence to the actions. Thus, better agents have better function.</p>
+</li>
+<li><h3 id="Rational-agents"><a href="#Rational-agents" class="headerlink" title="Rational agents"></a>Rational agents</h3></li>
+</ul>
+<h1 id="Chapter-3"><a href="#Chapter-3" class="headerlink" title="Chapter 3"></a>Chapter 3</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h6 id=&quot;It-39-s-my-summary-of-the-famous-book-Artificial-Intelligence-A-Modern-Approach-Here-I-will-use-keywords-outline-and-sometime-mind-maps-to-illustrate-the-structure-If-you-have-trouble-with-something-welcome-to-comment-below-the-article&quot;&gt;&lt;a href=&quot;#It-39-s-my-summary-of-the-famous-book-Artificial-Intelligence-A-Modern-Approach-Here-I-will-use-keywords-outline-and-sometime-mind-maps-to-illustrate-the-structure-If-you-have-trouble-with-something-welcome-to-comment-below-the-article&quot; class=&quot;headerlink&quot; title=&quot;It&amp;#39;s my summary of the famous book: Artificial Intelligence: A Modern Approach. Here I will use keywords outline and sometime mind maps to illustrate the structure. If you have trouble with something, welcome to comment below the article.&quot;&gt;&lt;/a&gt;It&amp;#39;s my summary of the famous book: &lt;em&gt;Artificial Intelligence: A Modern Approach&lt;/em&gt;. Here I will use keywords outline and sometime mind maps to illustrate the structure. If you have trouble with something, welcome to comment below the article.&lt;/h6&gt;
+    
+    </summary>
+    
+    
+      <category term="Read" scheme="http://neetordy.com/tags/Read/"/>
+    
+  </entry>
   
   <entry>
     <title>tmux + Terminator Workflow</title>
